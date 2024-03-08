@@ -1,14 +1,14 @@
 {
-    "name": "Stranger Robot",
+    "name": "KANEKI Robot",
     "description": "Telegram Group Management Bot.",
-    "logo": "https://te.legra.ph/file/eace7a5d8d4b515a11e50.jpg",
+    "logo": "https://telegra.ph/file/bb108d916fe7c9f66574c.jpg",
     "keywords": [
        "telegram",
        "modular",
        "group",
        "manager"
     ],   
- "repository": "https://github.com/itzshukla/STRANGER-ROBOT",
+ "repository": "https://github.com/insanekaneki7/INSANE-KANEKI",
  "stack": "heroku-22",
  "addons": [
     {
