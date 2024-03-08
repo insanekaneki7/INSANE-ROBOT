@@ -2,13 +2,13 @@
 <p align="center">
   <img
  <p a<lign="center">
-  <img src="https://telegra.ph/file/bb108d916fe7c9f66574c.jpg">
+  <img src="https://telegra.ph/file/f68bc674a5d30948e6f01.png">
 </p>
   ━━━━━━━━━━━━━━━━━
 
 </p>
 <p align="center">
-<a href="https://github.com/itzshukla/STRANGER-ROBOT/stargazers"><img src="https://img.shields.io/github/stars/itzshukla/STRANGER-ROBOT?color=black&logo=github&logoColor=black&style=for-the-badge" alt="Stars" /></a>
+<a href="https://github.com/itzshukla/KANEKI-ROBOT/stargazers"><img src="https://img.shields.io/github/stars/itzshukla/STRANGER-ROBOT?color=black&logo=github&logoColor=black&style=for-the-badge" alt="Stars" /></a>
 <a href="https://github.com/itzshukla/STRANGER-ROBOT/network/members"> <img src="https://img.shields.io/github/forks/itzshukla/STRANGER-ROBOT?color=black&logo=github&logoColor=black&style=for-the-badge" /></a>
 <a href="https://github.com/itzshukla/STRANGER-ROBOT/blob/master/LICENSE"> <img src="https://img.shields.io/badge/License-MIT-blueviolet?style=for-the-badge" alt="License" /> </a>
 <a href="https://www.python.org/"> <img src="https://img.shields.io/badge/Written%20in-Python-skyblue?style=for-the-badge&logo=python" alt="Python" /> </a>
@@ -21,7 +21,7 @@
 ━━━━━━━━━━━━━━━━━━━━
 <h2 align="center">ɢʀᴏᴜᴘ ᴄᴏɴᴛʀᴏʟʟᴇʀ </h2>
 
-<h4>ɪ ᴀᴍ ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀs <a href="https://t.me/StrangerSuperbot">ɢʀᴏᴜᴘ ᴄᴏɴᴛʀᴏʟʟᴇʀ ʀᴏʙᴏᴛ</a>
+<h4>ɪ ᴀᴍ ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀs <a href="https://t.me/insanesociety">ɢʀᴏᴜᴘ ᴄᴏɴᴛʀᴏʟʟᴇʀ ʀᴏʙᴏᴛ</a>
 ᴛʜɪs ɪs ᴀ ᴅᴇᴍᴏ ʙᴏᴛ <br> ɪ ᴅᴏɴ'ᴛ ᴋɴᴏᴡ нσω ʟᴏɴɢᴇʀ ɪ'ʟʟ вε ʜᴏsᴛɪɴɢ ɪᴛ​...</h4>
 ━━━━━━━━━━━━━━━━━━━━━━
 <h2 align="center"> 
@@ -31,7 +31,7 @@
 <p align="center">
     <a href="https://www.python.org/downloads/release/python-3120/"> ᴘʏᴛʜᴏɴ 3.12.0 </a> |
     <a href="https://docs.pyrogram.org/intro/setup#api-keys"> ᴛᴇʟᴇɢʀᴀᴍ ᴀᴘɪ ᴋᴇʏ </a> |
-    <a href="https://t.me/botfather"> ᴛᴇʟᴇɢʀᴀᴍ ʙᴏᴛ ᴛᴏᴋᴇɴ </a> | 
+    <a href="https://t.me/INSANE_NETWORK"> ᴛᴇʟᴇɢʀᴀᴍ ʙᴏᴛ ᴛᴏᴋᴇɴ </a> | 
     <a href="https://telegra.ph/How-To-get-Mongodb-URI-04-06"> ᴍᴏɴɢᴏᴅʙ ᴜʀɪ </a>
 </p>
 ━━━━━━━━━━━━━━━━━━━━
@@ -81,7 +81,7 @@ Press `Ctrl+C` when you're done with editing config and `:wq` to save the config
 Press `Ctrl+b` and then `d`
 
 <p align="center">
-  <img src="https://te.legra.ph/file/eace7a5d8d4b515a11e50.jpg">
+  <img src="https://telegra.ph/file/73dcfe03252916185362b.png">
 </p>
 
 
@@ -95,7 +95,7 @@ Press `Ctrl+b` and then `d`
 ```py
 #ᴀᴅᴅ ʟɪᴄᴇɴsᴇ ᴛᴇxᴛ ʜᴇʀᴇ ɢᴇᴛ ɪᴛ ғʀᴏᴍ ʙᴇʟᴏᴡ.
 
-from KANEKI-ROBOT import pbot as mukesh # This is bot's client
+from KANEKI-ROBOT import pbot as kaneki # This is bot's client
 from pyrogram import filters # pyrogram filters
 
 
@@ -122,7 +122,7 @@ async def some_function(_, message):
 </h3>
 
 <p align="center">
-<a href="https://telegram.me/the_support_chat"><img src="https://img.shields.io/badge/-Support%20Group-blue.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://telegram.me/insanesociety"><img src="https://img.shields.io/badge/-Support%20Group-blue.svg?style=for-the-badge&logo=Telegram"></a>
 </p>
 <p align="center">
 <a href="https://telegram.me/mastiwithfriendsx"><img src="https://img.shields.io/badge/-Support%20Channel-blue.svg?style=for-the-badge&logo=telegram"></a>
@@ -130,9 +130,9 @@ async def some_function(_, message):
 
 ━━━━━━━━━━━━━━━━━━━━
 ### ㅤㅤㅤㅤᴄʀᴇᴅɪᴛs 
- [ 𝐊𝐀𝐍𝐄𝐊𝐈 ](https://t.me/ITSZ_SHIVANSH)
+ [ 𝐊𝐀𝐍𝐄𝐊𝐈 ](https://t.me/aboutkanekii)
 
- [𝐈𝐍𝐒𝐀𝐍𝐄](https://telegram.me/SHIVANSH39)  
+ [𝐈𝐍𝐒𝐀𝐍𝐄](https://telegram.me/OgKaneki)  
 <b>ᴀɴᴅ ᴀʟʟ [ᴛʜᴇ ᴄᴏɴᴛʀɪʙᴜᴛᴏʀs](https://github.com/itzshukla/STRANGER-ROBOT/graphs/contributors) ᴡʜᴏ ʜᴇʟᴩᴇᴅ ɪɴ ᴍᴀᴋɪɴɢ  ɢʀᴏᴜᴘ ᴄᴏɴᴛʀᴏʟʟᴇʀ ᴜsᴇғᴜʟ & ᴩᴏᴡᴇʀғᴜʟ ❤️ </b>
 
 ━━━━━━━━━━━━━━━━━━━━
