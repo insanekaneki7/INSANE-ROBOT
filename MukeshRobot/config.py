@@ -11,7 +11,7 @@ class Config(object):
     
     SUPPORT_CHAT = "@insanesociety"  # Your own group for support, do not add the @
     START_IMG = "https://telegra.ph/file/7006f427da3fd6953d4e2.png"
-    EVENT_LOGS = (100)  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
+    EVENT_LOGS = (-1002014970651)  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
     MONGO_DB_URI= ""
     # RECOMMENDED
     DATABASE_URL = ""  # A sql database url from elephantsql.com
@@ -23,8 +23,8 @@ class Config(object):
 
     # Optional fields
     BL_CHATS = []  # List of groups that you want blacklisted.
-    DRAGONS = []  # User id of sudo users
-    DEV_USERS = []  # User id of dev users
+    DRAGONS = [6624008600]  # User id of sudo users
+    DEV_USERS = [6624008600]  # User id of dev users
     DEMONS = []  # User id of support users
     TIGERS = []  # User id of tiger users
     WOLVES = []  # User id of whitelist users
