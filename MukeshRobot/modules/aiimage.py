@@ -2,8 +2,8 @@
 
 Copyright (c) 2023-24 Noob-Mukesh
 
-          GITHUB: NOOB-MUKESH
-          TELEGRAM: @MR_SUKKUN
+          GITHUB: insanekaneki7
+          TELEGRAM: @OgKaneki
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -29,7 +29,7 @@ from pyrogram.types import InputMediaPhoto
 from .. import pbot as  Mukesh,BOT_USERNAME
 import requests
 
-@Mukesh.on_message(filters.command("imagine"))
+@OgKaneki.on_message(filters.command("imagine"))
 async def imagine_(b, message: Message):
     if message.reply_to_message:
         text = message.reply_to_message.text
