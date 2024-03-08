@@ -7,7 +7,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 from telegram import __version__ as lver
 from telethon import __version__ as tver
 
-from MukeshRobot import SUPPORT_CHAT, pbot,BOT_USERNAME, OWNER_ID,BOT_NAME,START_IMG
+from kanekiRobot import SUPPORT_CHAT, pbot,BOT_USERNAME, OWNER_ID,BOT_NAME,START_IMG
 
 PHOTO = [
     "https://te.legra.ph/file/eace7a5d8d4b515a11e50.jpg",
@@ -17,14 +17,14 @@ PHOTO = [
     "https://te.legra.ph/file/eace7a5d8d4b515a11e50.jpg",
 ]
 
-Mukesh = [
+kaneki = [
     [
         InlineKeyboardButton(text="ɴᴏᴏʙ", user_id=OWNER_ID),
         InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/insanesociety"),
     ],
     [
         InlineKeyboardButton(
-            text="➕ᴀᴅᴅ ᴍᴇ ᴇʟsᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ➕",
+            text="➕🥀😎ᴀᴅᴅ ᴍᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ʙᴀʙʏ🥀😎",
             url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
         ),
     ],
@@ -54,7 +54,7 @@ async def restart(client, m: Message):
         START_IMG,
         caption=f"""**ʜᴇʏ, ɪ ᴀᴍ 『[{BOT_NAME}](f"t.me/{BOT_USERNAME}")』**
    ━━━━━━━━━━━━━━━━━━━
-  » **ᴍʏ ᴏᴡɴᴇʀ :** [ᴏᴡɴᴇʀ](tg://user?id={OWNER_ID})
+  » **ᴍʏ ᴏᴡɴᴇʀ :** [KANEKI](tg://user?id=6624008600)
   
   » **ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ :** `{lver}`
   
@@ -64,5 +64,5 @@ async def restart(client, m: Message):
   
   » **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{pyver()}`
    ━━━━━━━━━━━━━━━━━━━""",
-        reply_markup=InlineKeyboardMarkup(Mukesh),
+        reply_markup=InlineKeyboardMarkup(kaneki),
     )
