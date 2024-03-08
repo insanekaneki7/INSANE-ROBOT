@@ -425,7 +425,7 @@ def kaneki_about_callback(update: Update, context: CallbackContext):
                     ],
                     [
                         InlineKeyboardButton(
-                            text="🥀 ᴅᴇᴠᴇʟᴏᴩᴇʀ", url=f"tg://user?id={OWNER_ID}"
+                            text="🥀 ᴅᴇᴠᴇʟᴏᴩᴇʀ", url=f"t.me/OgKaneki"
                         ),
                         InlineKeyboardButton(
                             text="ɢɪᴛʜᴜʙ 🍹", url="https://t.me/aboutkanekii"
@@ -464,9 +464,9 @@ def KANEKIRobot_Main_Callback(update: Update, context: CallbackContext):
                     ],
                     [
                         InlineKeyboardButton(text="🍹 Aᴅᴠᴀɴᴄᴇ", callback_data="advance_help"),
-                        InlineKeyboardButton(text="Dᴏɴᴀᴛɪᴏɴ 🎉", callback_data="donation_help") 
+                        InlineKeyboardButton(text="Dᴏɴᴀᴛɪᴏɴ 🎉", callback_data="insanesociety") 
                     ],
-                    [InlineKeyboardButton(text="• Hᴏᴍᴇ •", callback_data="aboutkanekii")]
+                    [InlineKeyboardButton(text="• ʜᴏᴍᴇ •", callback_data="aboutkanekii")]
                 ]
             ),
         )
@@ -975,7 +975,7 @@ def donate(update: Update, context: CallbackContext):
         if OWNER_ID != 6624008600:
             update.effective_message.reply_text(
                 f"» ᴛʜᴇ ᴅᴇᴠᴇʟᴏᴩᴇʀ ᴏғ {dispatcher.bot.first_name} sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ɪs [ɢɪᴛʜᴜʙ](https://t.me/aboutkanekii)"
-                f"\n\nʙᴜᴛ ʏᴏᴜ ᴄᴀɴ ᴀʟsᴏ ᴅᴏɴᴀᴛᴇ ᴛᴏ ᴛʜᴇ ᴩᴇʀsᴏɴ ᴄᴜʀʀᴇɴᴛʟʏ ʀᴜɴɴɪɴɢ ᴍᴇ : [ʜᴇʀᴇ]({DONATE_STRING})",
+                f"\n\nʙᴜᴛ ʏᴏᴜ ᴄᴀɴ ᴀʟsᴏ ᴅᴏɴᴀᴛᴇ ᴛᴏ ᴛʜᴇ ᴩᴇʀsᴏɴ ᴄᴜʀʀᴇɴᴛʟʏ ʀᴜɴɴɪɴɢ ᴍᴇ : [ʜᴇʀᴇ]({@INSANE_NETWORK})",
                 parse_mode=ParseMode.MARKDOWN,
                 
             )
