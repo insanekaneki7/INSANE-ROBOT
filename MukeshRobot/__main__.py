@@ -310,7 +310,7 @@ def help_button(update, context):
         if mod_match:
             module = mod_match.group(1)
             text = (
-                "» *ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs ꜰᴏʀ​​* *{}* :\n".format(
+                "» *ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs  ꜰᴏʀ​​* *{}* :\n".format(
                     HELPABLE[module].__mod_name__
                 )
                 + HELPABLE[module].__help__
@@ -382,7 +382,6 @@ def kaneki_about_callback(update: Update, context: CallbackContext):
                     [
         InlineKeyboardButton(text="🏡", callback_data="insanesociety"),
         InlineKeyboardButton(text="🛡️", callback_data="KANEKI_"),
-        InlineKeyboardButton(text="💳", callback_data="INSANE_NETWORK_"),
         InlineKeyboardButton(text="🧑‍💻", url=f"tg://user?id={6624008600}"),
         InlineKeyboardButton(text="🖥️", callback_data="Main_help"),
      ],
@@ -398,9 +397,6 @@ def kaneki_about_callback(update: Update, context: CallbackContext):
                         InlineKeyboardButton(
                             text="👨‍💻ᴅᴇᴠᴇʟᴏᴩᴇʀ", url=f"tg://user?id={6624008600}"
                         ),
-                        InlineKeyboardButton(
-                            text="🥀channel",
-                            callback_data="INSANE_NETWORK_",
                         ),
                     ],
                     [
@@ -418,7 +414,6 @@ def kaneki_about_callback(update: Update, context: CallbackContext):
                     [
         InlineKeyboardButton(text="🏡", callback_data="insanesociety"),
         InlineKeyboardButton(text="🛡️", callback_data="insanesociety_"),
-        InlineKeyboardButton(text="💳", callback_data="INSANE_NETWORK"),
         InlineKeyboardButton(text="🧑‍💻", url=f"tg://user?id={OWNER_ID}"),
         InlineKeyboardButton(text="🖥️", callback_data="Main_help"),
      ],
@@ -588,39 +583,12 @@ Yᴏᴜ ᴄᴀɴ ʜᴇʟᴘ ᴛʜᴇ ᴅᴇᴠᴇʟᴏᴘᴍᴇɴᴛ ᴡɪᴛʜ 
             reply_markup=InlineKeyboardMarkup(
                 [ [
         InlineKeyboardButton(text="🏡", callback_data="INSANE_NETWORK"),
-        InlineKeyboardButton(text="🛡️", callback_data="@OgKaneki_"),
-        InlineKeyboardButton(text="💳", callback_data="source_"),
+        InlineKeyboardButton(text="🛡️", callback_data="@OgKaneki_"), 
         InlineKeyboardButton(text="🧑‍💻", url=f"tg://user?id={OWNER_ID}"),
         InlineKeyboardButton(text="🖥️", callback_data="Main_help"),
      ],
-                    [
-                        InlineKeyboardButton(text="• Dᴏɴᴀᴛᴇ •", url="https://t.me/INSANE_NETWORK"),InlineKeyboardButton(text="• sᴜᴘᴘᴏʀᴛ •", callback_data="insanesociety")
-                    ]
                 ]
             ),
-            )  
-def Source_about_callback(update: Update, context: CallbackContext):
-    query = update.callback_query
-    if query.data == "INSANE_":
-        query.message.edit_caption(
-            f"""
-*ʜᴇʏ,
- ᴛʜɪs ɪs {BOT_NAME},
-ᴀɴ ᴏᴩᴇɴ sᴏᴜʀᴄᴇ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴩ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ.*
-
-ᴡʀɪᴛᴛᴇɴ ɪɴ ᴩʏᴛʜᴏɴ ᴡɪᴛʜ ᴛʜᴇ ʜᴇʟᴩ ᴏғ : [ᴛᴇʟᴇᴛʜᴏɴ](https://github.com/LonamiWebs/Telethon)
-[ᴩʏʀᴏɢʀᴀᴍ](https://github.com/pyrogram/pyrogram)
-[ᴩʏᴛʜᴏɴ-ᴛᴇʟᴇɢʀᴀᴍ-ʙᴏᴛ](https://github.com/python-telegram-bot/python-telegram-bot)
-ᴀɴᴅ ᴜsɪɴɢ [sǫʟᴀʟᴄʜᴇᴍʏ](https://www.sqlalchemy.org) ᴀɴᴅ [ᴍᴏɴɢᴏ](https://cloud.mongodb.com) ᴀs ᴅᴀᴛᴀʙᴀsᴇ.
-
-
-*ʜᴇʀᴇ ɪs ᴍʏ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ :* [ɢɪᴛʜᴜʙ](https://t.me/INSANE_NETWORK)
-
-
-{BOT_NAME} ɪs ʟɪᴄᴇɴsᴇᴅ ᴜɴᴅᴇʀ ᴛʜᴇ [ᴍɪᴛ ʟɪᴄᴇɴsᴇ](https://t.me/INSANE_NETWORK).
-© 2023 - 2024 | [sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ](https://t.me/insanesociety), ᴀʟʟ ʀɪɢʜᴛs ʀᴇsᴇʀᴠᴇᴅ.
-""",
-            parse_mode=ParseMode.MARKDOWN,
             
             reply_markup=InlineKeyboardMarkup(
                 [[
@@ -629,19 +597,11 @@ def Source_about_callback(update: Update, context: CallbackContext):
                  [
         InlineKeyboardButton(text="🏡", callback_data="kaneki_back"),
         InlineKeyboardButton(text="🛡️", callback_data="kaneki_"),
-        InlineKeyboardButton(text="💳", callback_data="source_"),
         InlineKeyboardButton(text="🧑‍💻", url=f"tg://user?id={OWNER_ID}"),
         InlineKeyboardButton(text="🖥️", callback_data="Main_help"),
-     ],[InlineKeyboardButton(text="◁", callback_data="source_back")]]
             ),
         )
-    elif query.data == "source_back":
-        first_name = update.effective_user.first_name
-        query.message.edit_caption(
-            PM_START_TEXT.format(escape_markdown(first_name), BOT_NAME,sql.num_users(),sql.num_chats()),
-            reply_markup=InlineKeyboardMarkup(buttons),
-            parse_mode=ParseMode.MARKDOWN,
-            timeout=60,
+    
             
         )
 
@@ -659,7 +619,6 @@ def Music_about_callback(update: Update, context: CallbackContext):
                     [
         InlineKeyboardButton(text="🏡", callback_data="insanesociety"),
         InlineKeyboardButton(text="🛡️", callback_data="@OgKaneki"),
-        InlineKeyboardButton(text="💳", callback_data="source_"),
         InlineKeyboardButton(text="🧑‍💻", url=f"tg://user?id={OWNER_ID}"),
         InlineKeyboardButton(text="🖥️", callback_data="Main_help"),
      ],
@@ -672,7 +631,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
                         ),
                     ],
                     [
-                        InlineKeyboardButton(text="⍟ ʙᴏᴛ ⍟", callback_data="Music_bot"),
+                        InlineKeyboardButton(text="⍟ ʙᴏᴛ ⍟",  callback_data="Music_bot"),
                         InlineKeyboardButton(
                             text="⍟ ᴇxᴛʀᴀ ⍟",
                             callback_data="Music_extra",
@@ -1011,7 +970,7 @@ def get_settings(update: Update, context: CallbackContext):
 
 def donate(update: Update, context: CallbackContext):
     user = update.effective_message.from_user
-    chat = update.effective_chat  # type: Optional[Chat]
+    chat = update.INSANE_NETWORK  # type: Optional[Chat]
     bot = context.bot
     if chat.type == "private":
         update.effective_message.reply_text(
@@ -1045,9 +1004,9 @@ def donate(update: Update, context: CallbackContext):
 
 
 def migrate_chats(update: Update, context: CallbackContext):
-    msg = update.effective_message  # type: Optional[Message]
+    msg = update.INSANE_NETWORK  # type: Optional[Message]
     if msg.migrate_to_chat_id:
-        old_chat = update.effective_chat.id
+        old_chat = update.effective_chat.-1002014970651
         new_chat = msg.migrate_to_chat_id
     elif msg.migrate_from_chat_id:
         old_chat = msg.migrate_from_chat_id
@@ -1070,7 +1029,7 @@ def main():
                     [
                         InlineKeyboardButton(
                             text="➕𝐀𝐃𝐃 𝐌𝐄 𝐁𝐀𝐁𝐘😎➕",
-                            url="https://t.me/StrangerSuperbot?startgroup=true"
+                            url="https://t.me/INSANE_NETWORK?startgroup=true"
                             )
                        ]
                 ]
