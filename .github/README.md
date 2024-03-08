@@ -1,8 +1,8 @@
-<h1 align="center">𝐒𝐓𝐑𝐀𝐍𝐆𝐄𝐑 𝐑𝐎𝐁𝐎𝐓</h1>
+<h1 align="center">𝐊𝐀𝐍𝐄𝐊𝐈 𝐑𝐎𝐁𝐎𝐓</h1>
 <p align="center">
   <img
  <p a<lign="center">
-  <img src="https://te.legra.ph/file/eace7a5d8d4b515a11e50.jpg">
+  <img src="https://telegra.ph/file/bb108d916fe7c9f66574c.jpg">
 </p>
   ━━━━━━━━━━━━━━━━━
 
@@ -61,13 +61,13 @@
 - Install pip by :
 `sudo pip3 install -U pip`
 - Clone the repository by :
-`git clone https://github.com/itzshukla/STRANGER-ROBOT && cd STRANGER-ROBOT`
+`git clone https://github.com/itzshukla/STRANGER-ROBOT && cd KANEKI-ROBOT`
 - Install/Upgrade setuptools by :
 `pip3 install --upgrade pip setuptools`
 - Install requirements by :
 `pip3 install -U -r requirements.txt`
 - Fill your variables in config by :
-`vi STRANGER-ROBOT/config.py`
+`vi KANEKI-ROBOT/config.py`
 
 Press `I` on the keyboard for editing config
 
@@ -75,7 +75,7 @@ Press `Ctrl+C` when you're done with editing config and `:wq` to save the config
 - Install tmux to keep running your bot when you close the terminal by :
 `sudo apt install tmux && tmux`
 - Finally run the bot by :
-`python3 -m MukeshRobot`
+`python3 -m KANEKIRobot`
 - For getting out from tmux session
 
 Press `Ctrl+b` and then `d`
@@ -95,7 +95,7 @@ Press `Ctrl+b` and then `d`
 ```py
 #ᴀᴅᴅ ʟɪᴄᴇɴsᴇ ᴛᴇxᴛ ʜᴇʀᴇ ɢᴇᴛ ɪᴛ ғʀᴏᴍ ʙᴇʟᴏᴡ.
 
-from STRANGER-ROBOT import pbot as mukesh # This is bot's client
+from KANEKI-ROBOT import pbot as mukesh # This is bot's client
 from pyrogram import filters # pyrogram filters
 
 
@@ -105,7 +105,7 @@ __mod_name__ = "Module Name"
 __help__ = "Module help message"
 
 
-@mukesh.on_message(filters.command("start"))
+@OgKaneki.on_message(filters.command("start"))
 async def some_function(_, message):
     await message.reply_text("ɪ'ᴍ.ᴀʟɪᴠᴇ ʙᴀʙʏ❣️!!")
 
@@ -130,9 +130,9 @@ async def some_function(_, message):
 
 ━━━━━━━━━━━━━━━━━━━━
 ### ㅤㅤㅤㅤᴄʀᴇᴅɪᴛs 
- [ 𝐒𝐓𝐑𝐀𝐍𝐆𝐄𝐑 ](https://t.me/ITSZ_SHIVANSH)
+ [ 𝐊𝐀𝐍𝐄𝐊𝐈 ](https://t.me/ITSZ_SHIVANSH)
 
- [𝐒𝐇𝐈𝐕𝐀𝐍𝐒𝐇](https://telegram.me/SHIVANSH39)  
+ [𝐈𝐍𝐒𝐀𝐍𝐄](https://telegram.me/SHIVANSH39)  
 <b>ᴀɴᴅ ᴀʟʟ [ᴛʜᴇ ᴄᴏɴᴛʀɪʙᴜᴛᴏʀs](https://github.com/itzshukla/STRANGER-ROBOT/graphs/contributors) ᴡʜᴏ ʜᴇʟᴩᴇᴅ ɪɴ ᴍᴀᴋɪɴɢ  ɢʀᴏᴜᴘ ᴄᴏɴᴛʀᴏʟʟᴇʀ ᴜsᴇғᴜʟ & ᴩᴏᴡᴇʀғᴜʟ ❤️ </b>
 
 ━━━━━━━━━━━━━━━━━━━━
